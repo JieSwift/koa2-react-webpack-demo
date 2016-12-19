@@ -1,8 +1,11 @@
 ## Koa2-React-Webpack-Demo ##
 
 > 关于Koa2、React、Webpack搭建一个完整的项目例子。
+
 > 前端用react UI组件化开发，负责MVC中的View和Controller
+
 > 后端用Koa2 只负责MVC中的Model
+
 > 完全实现前后端分离。
 
 ### 安装项目依赖 ###
@@ -53,12 +56,13 @@
      },
 #### 一些说明 ####
 
-> npm start 开启webpack-dev-server 
-> npm run dev-server 开发环境运行nodejs服务
-> npm run test 测试代码 mocha chai supertest测试
-> npm run eslint 进行eslint检查规范
-> npm run deploy 生产环境编译前端组件
-> npm run webpack-stats 生成项目依赖关系的json文件
+    npm start 开启webpack-dev-server 
+    npm run dev-server 开发环境运行nodejs服务
+    npm run test 测试代码 mocha chai supertest测试
+    npm run eslint 进行eslint检查规范
+    npm run deploy 生产环境编译前端组件
+    npm run webpack-stats 生成项目依赖关系的json文件
+
 
 ### 参考文章 ###
 [阮一峰老师的 npm scripts 使用指南](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html "npm scripts 使用指南")
